@@ -2,7 +2,9 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     :root{
-
+        --black: #282629;
+        --black-hover: #373538;
+        --white: #ffff;
     }
     
     * {
@@ -18,5 +20,9 @@ export const GlobalStyle = createGlobalStyle`
     
     button:hover{
         cursor: pointer;
+    }
+
+    .app {
+        height: 100vh;
     }
 `;

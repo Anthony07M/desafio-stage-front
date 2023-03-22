@@ -10,6 +10,21 @@ export const Home = () => {
                 subtitle="Sub for title"
                 task="task lorem task lorem"
             />
+            <Process
+                title="Title for title"
+                subtitle="Sub for title"
+                task="task lorem task lorem"
+            />
+            <Process
+                title="Title for title"
+                subtitle="Sub for title"
+                task="task lorem task lorem"
+            />
+            <Process
+                title="Title for title"
+                subtitle="Sub for title"
+                task="task lorem task lorem"
+            />
         </Container>
     )
 }

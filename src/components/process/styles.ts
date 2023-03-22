@@ -8,6 +8,7 @@ export const Container = styled.div`
   -webkit-box-shadow: 3px 4px 5px -3px rgba(0, 0, 0, 0.62);
   -moz-box-shadow: 3px 4px 5px -3px rgba(0, 0, 0, 0.62);
   box-shadow: rgba(0, 0, 0, 0.32) 1px 1px 14px 0px;
+  margin: 1rem;
 
   h2,
   h3,

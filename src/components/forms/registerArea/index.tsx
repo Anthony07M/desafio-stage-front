@@ -4,7 +4,6 @@ import { Controller, useForm } from 'react-hook-form';
 import { useEffect, useState } from "react";
 import { requestsProcess, requestsArea } from '../../../services/requests'
 import { Select } from "../../../components/select";
-import axios from "axios";
 
 interface RegisterAreaProps {
     onClose: () => void;

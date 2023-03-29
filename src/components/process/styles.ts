@@ -19,10 +19,12 @@ export const Container = styled.div`
 
   h2 {
     font-size: 0.8rem;
+    color: var(--gray-title);
   }
 
   h3 {
     font-size: 1.125rem;
+    color: var(--gray-subtitle);
   }
 
   .status {
@@ -33,6 +35,9 @@ export const Container = styled.div`
     p {
       font-size: 0.875rem;
     }
+  }
+  .task {
+    color: var(--gray-text);
   }
 
   .progress-bar {
@@ -49,7 +54,7 @@ export const Container = styled.div`
     border-radius: 10px;
     text-align: center;
     width: 70%;
-    background-color: blue;
+    background-color: var(--black);
   }
 
   .imgs {
